@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Đăng Ký Tài Khoản Demo Giao Dịch Toàn Cầu 2026</title>
+  <style>
+    :root {
+      --bg: #0b0e14;
+      --card: #151a24;
+      --accent: #ff444f;
+      --green: #00c896;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); display: flex; flex-direction: column; min-height: 100vh; justify-content: center; align-items: center; padding: 16px; overflow-x: hidden; }
+    
+    .top-bar { position: fixed; top: 0; left: 0; width: 100%; background: #1e293b; color: #38bdf8; font-size: 13px; text-align: center; padding: 8px; font-weight: 600; z-index: 10; border-bottom: 1px solid #334155; }
+    .top-bar span { color: var(--green); }
+
+    .container { max-width: 460px; width: 100%; background: var(--card); border-radius: 16px; padding: 26px 20px; box-shadow: 0 20px 45px rgba(0,0,0,0.6); border: 1px solid #262f40; margin-top: 36px; text-align: center; position: relative; }
+    
+    .badge { display: inline-block; background: rgba(0, 200, 150, 0.15); color: var(--green); font-size: 12px; font-weight: 700; padding: 5px 12px; border-radius: 20px; margin-bottom: 12px; border: 1px solid rgba(0, 200, 150, 0.3); }
+    
+    h1 { font-size: 21px; line-height: 1.4; margin-bottom: 8px; font-weight: 800; color: #ffffff; word-break: keep-all; }
+    .highlight { color: var(--accent); }
+    .sub { font-size: 13.5px; color: var(--muted); margin-bottom: 20px; line-height: 1.5; word-break: keep-all; }
+
+    .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 20px; background: #0f131c; padding: 12px; border-radius: 12px; border: 1px solid #1e2636; }
+    .stat-item { display: flex; flex-direction: column; }
+    .stat-val { font-size: 15px; font-weight: 800; color: #fff; }
+    .stat-lbl { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+    .form-box { text-align: left; }
+    .form-group { margin-bottom: 12px; }
+    .form-group label { display: block; font-size: 13px; font-weight: 700; color: #cbd5e1; margin-bottom: 5px; }
+    .input-field { width: 100%; background: #0f131c; border: 1px solid #334155; color: #fff; padding: 13px 14px; border-radius: 10px; font-size: 15px; outline: none; transition: border 0.2s; }
+    .input-field:focus { border-color: var(--green); }
+    .input-field::placeholder { color: #475569; }
+
+    .privacy-note { display: flex; align-items: flex-start; gap: 8px; font-size: 12px; color: var(--muted); margin: 12px 0; cursor: pointer; }
+    .privacy-note input { margin-top: 3px; accent-color: var(--green); }
+
+    .cta-btn { display: block; width: 100%; background: linear-gradient(135deg, #ff444f 0%, #d92b36 100%); color: #fff; text-align: center; text-decoration: none; font-size: 17px; font-weight: 800; padding: 16px; border-radius: 12px; margin-top: 12px; box-shadow: 0 8px 25px rgba(255, 68, 79, 0.4); border: none; cursor: pointer; transition: opacity 0.2s; }
+    .cta-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+    .features-list { background: #0f131c; padding: 12px 14px; border-radius: 10px; margin: 12px 0 16px; font-size: 12.5px; color: #cbd5e1; line-height: 1.7; border: 1px solid #1e2636; }
+    .features-list div::before { content: '✔ '; color: var(--green); font-weight: bold; }
+
+    .footer-disclaimer { max-width: 460px; font-size: 11px; color: #475569; text-align: center; margin-top: 18px; line-height: 1.4; }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    ⚡ <span>1.480 Trader Việt Nam</span> đang giao dịch Chỉ số Tổng hợp 24/7 hôm nay
+  </div>
+
+  <div class="container">
+    <div class="badge">🇻🇳 Dành Riêng Cho Trader Việt Nam</div>
+    <h1>Giao Dịch Forex & Chỉ Số Toàn Cầu <span class="highlight">Demo $10.000 Miễn Phí</span></h1>
+    <p class="sub">Thị trường hoạt động 24/7 kể cả cuối tuần! Điền thông tin bên dưới để nhận tài khoản thực hành không rủi ro ngay lập tức.</p>
+
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-val">1:1000</span>
+        <span class="stat-lbl">Đòn bẩy tối đa</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-val">24/7</span>
+        <span class="stat-lbl">Giao dịch cuối tuần</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-val">USDT</span>
+        <span class="stat-lbl">Nạp rút nhanh</span>
+      </div>
+    </div>
+
+    <div class="features-list">
+      <div>Nhận ngay $10.000 tiền ảo trong tài khoản Deriv</div>
+      <div>Hỗ trợ nạp rút nhanh qua USDT và Ngân hàng nội địa</div>
+    </div>
+
+    <!-- Single Page Lead Form -->
+    <div class="form-box">
+      <form id="leadForm" onsubmit="handleLeadSubmit(event)">
+        <div class="form-group">
+          <label for="userName">Họ và Tên (Name)</label>
+          <input type="text" id="userName" class="input-field" placeholder="Nguyễn Văn A" required>
+        </div>
+
+        <div class="form-group">
+          <label for="userEmail">Địa chỉ Email (Email)</label>
+          <input type="email" id="userEmail" class="input-field" placeholder="example@gmail.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="userPhone">Số Điện Thoại / Zalo (Phone)</label>
+          <input type="tel" id="userPhone" class="input-field" placeholder="0912345678" pattern="[0-9\-+\s]{9,15}" required>
+        </div>
+
+        <label class="privacy-note">
+          <input type="checkbox" required checked>
+          <span>[Bắt buộc] Tôi đồng ý nhận thông tin tài khoản demo và hướng dẫn giao dịch qua email.</span>
+        </label>
+
+        <button type="submit" id="submitBtn" class="cta-btn">
+          Kích Hoạt Tài Khoản Demo $10.000 Ngay →
+        </button>
+      </form>
+      <p style="font-size: 12px; color: var(--muted); margin-top: 10px; text-align: center;">
+        ⏳ Số lượng tài khoản ưu đãi còn lại: <strong style="color:#ff444f;">7 suất</strong>
+      </p>
+    </div>
+  </div>
+
+  <div class="footer-disclaimer">
+    Cảnh báo rủi ro: Giao dịch phái sinh và ngoại hối mang mức độ rủi ro cao đối với vốn của bạn.
+  </div>
+
+  <script>
+    // ==========================================
+    // CONFIGURATION (Vietnam Campaign)
+    // ==========================================
+    const DERIV_AFFILIATE_LINK = "https://t.deriv.link?t=FTKHU4SSTCVV";
+    const POPADS_AID = "ac7e32847e3e8169f251a1dff13a8d7b";
+    const CONVERSION_VALUE = "1";
+    const LEAD_WEBHOOK_URL = "YOUR_VIETNAM_GOOGLE_SHEET_WEB_APP_URL_HERE"; 
+
+    // Read PopAds URL Parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const impressionId = urlParams.get('clickid') || urlParams.get('id') || '';
+    const websiteId = urlParams.get('siteid') || '';
+
+    // Handle Lead Submission + Fire PopAds Postback + Redirect to Deriv
+    async function handleLeadSubmit(e) {
+      e.preventDefault();
+      const submitBtn = document.getElementById('submitBtn');
+      submitBtn.disabled = true;
+      submitBtn.innerText = "Đang kết nối hệ thống...";
+
+      const name = document.getElementById('userName').value.trim();
+      const email = document.getElementById('userEmail').value.trim();
+      const phone = document.getElementById('userPhone').value.trim();
+
+      // 1. Fire PopAds Conversion Pixel / Postback
+      if (impressionId) {
+        const postbackUrl = `https://serve.popads.net/cpixel.php?s2s=1&aid=${POPADS_AID}&id=${encodeURIComponent(impressionId)}&value=${CONVERSION_VALUE}`;
+        const pixel = new Image();
+        pixel.src = postbackUrl;
+      }
+
+      // 2. Send Name, Email & Phone to Google Sheet Webhook
+      if (LEAD_WEBHOOK_URL && LEAD_WEBHOOK_URL !== "YOUR_VIETNAM_GOOGLE_SHEET_WEB_APP_URL_HERE") {
+        try {
+          await fetch(LEAD_WEBHOOK_URL, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+            body: JSON.stringify({
+              name: name,
+              email: email,
+              phone: phone,
+              clickid: impressionId,
+              siteid: websiteId,
+              country: "VN",
+              timestamp: new Date().toISOString()
+            })
+          });
+        } catch (err) {
+          console.log("Webhook error:", err);
+        }
+      }
+
+      // 3. Redirect User to Deriv Affiliate Link after 800ms
+      setTimeout(() => {
+        window.location.href = DERIV_AFFILIATE_LINK;
+      }, 800);
+    }
+  </script>
+</body>
+</html>
